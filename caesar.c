@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
   int key, inputkey;
   char buffer[BUFFER_SIZE];
-  char *ptr = buffer;
+  unsigned char *ptr = buffer;
   char low, high, old, new;
   size_t len;
 
